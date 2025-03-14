@@ -1,0 +1,155 @@
+.financialInsights {
+  padding: 2rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00ff88;
+  text-align: center;
+}
+
+.calculator {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 500px;
+}
+
+.calculator h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00ff88;
+  text-align: center;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #cccccc;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #1a1a1a;
+  border: 1px solid #00ff88;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.calculateButton {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #00ff88;
+  border: none;
+  border-radius: 5px;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculateButton:hover {
+  background-color: #00cc66;
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #00ff88;
+  text-align: center;
+}
+
+.searchOptions {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 800px;
+}
+
+.searchOptions h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00ff88;
+  text-align: center;
+}
+
+.searchButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.searchButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #00ff88;
+  border: none;
+  border-radius: 5px;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #00cc66;
+}
+
+.chartContainer {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 800px;
+}
+
+.chartContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00ff88;
+  text-align: center;
+}
+
+.tipsSection {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 800px;
+}
+
+.tipsSection h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00ff88;
+  text-align: center;
+}
+
+.tipsSection ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #cccccc;
+}
+
+.tipsSection li {
+  margin-bottom: 0.5rem;
+}
